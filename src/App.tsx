@@ -1,6 +1,6 @@
 import React, { useEffect, useState, SetStateAction } from 'react';
 import './App.css';
-
+//This is a comment
 import { Amplify, API, graphqlOperation } from 'aws-amplify';
 import { createTodo } from './graphql/mutations';
 import { listTodos } from './graphql/queries';
